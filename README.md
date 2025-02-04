@@ -1,50 +1,43 @@
-# Welcome to your Expo app 👋
+# **HNG Mobile App**  
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a simple React Native mobile app built with Expo. The app provides links to HNG Hire pages and the project’s GitHub repository.  
 
-## Get started
+## **📂 GitHub Repository**  
+🔗 [GitHub Repository](https://github.com/ashleynda/HNG-mobile-app)  
 
-1. Install dependencies
+## **📌 HNG Hire Links**  
+The app includes links to:  
+- [Flutter Developers](https://hng.tech/hire/flutter-developers)  
+- [React Native Developers](https://hng.tech/hire/react-native-developers)  
+- [Kotlin Developers](https://hng.tech/hire/kotlin-developers)  
+- [Mobile UI/UX Developers](https://hng.tech/hire/mobile-ui-ux-developers)  
+- [Android Developers](https://hng.tech/hire/android-developers)  
 
-   ```bash
-   npm install
-   ```
+## **📥 Installation & Setup**  
 
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+### **1️⃣ Clone the Repository**  
+```sh
+git clone https://github.com/ashleynda/HNG-mobile-app
+cd mobile-app
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### **2️⃣ Install Dependencies**  
+```sh
+yarn install
+# OR
+npm install
+```
 
-## Learn more
+### **3️⃣ Run the App**  
+Start the Expo development server:  
+```sh
+npx expo start
+```
+- **Android Users**: Scan the QR code with Expo Go.  
+- **iOS Users**: Run `npx expo run:ios` (Mac required) or use Expo Go.  
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## **📌 Features**  
+✅ Links to HNG Hire Pages  
+✅ GitHub Repository Button  
+✅ Simple and Responsive UI  
+✅ Works on Android & iOS  
